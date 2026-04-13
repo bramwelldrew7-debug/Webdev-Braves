@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: cornflowerblue; /* light neutral so sections stand out */
+}
+
+.header {
+    background-color: #CE1141;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.anchor-links {
+    margin-top: 20px;
+}
+
+.anchor-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.anchor-links a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto; /* THIS centers it */
+}
+
+.box {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    }
+
+ #lists ul,
+ #lists ol {
+    text-align: left;
+    padding-left: 25px;
+}
+
+.box h2 {
+    color: #ba0c2f;
+}
+
+.scratch-image {
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.button-link {
+    display: inline-block;
+    background-color: #ba0c2f;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.button-link:hover {
+    background-color: #8f0923;
+}
+
+.footer {
+    text-align: center;
+    background-color: #13274f;
+    color: white;
+    padding: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
